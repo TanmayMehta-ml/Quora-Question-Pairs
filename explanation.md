@@ -5,8 +5,7 @@
 
 
 
-
-This Jupyter Notebook documents the process of training a machine learning model to predict whether a pair of questions on Quora are duplicate or not. The goal of this project is to develop a web application that allows users to input two questions and get predictions about whether they are duplicate or not.
+The goal of this project is to develop a web application that allows users to input two questions and get predictions about whether they are duplicate or not.
 
 ## Introduction
 
@@ -64,18 +63,6 @@ EDA is performed to understand the distribution of features, their relationship 
 ## Model Training
 
 Two machine learning models, XGBoost and Random Forest, are trained using the basic and advanced features as inputs.
-
-## Model Evaluation
-
-The models are evaluated using a confusion matrix to compare their performance. The best performing model is selected for deployment.
-
-## Saving the Model
-
-The Random Forest model is pickled and saved to be used later for predictions in the web application.
-
-## Function Definitions for Feature Extraction
-
-The notebook includes function definitions for preprocessing the text data and extracting both basic and advanced features from the question pairs.
 
 ## References
 
