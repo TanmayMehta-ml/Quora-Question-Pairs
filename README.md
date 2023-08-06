@@ -12,7 +12,7 @@ The main goal of this project is to build a model that can accurately determine 
 ## My Approach and Implementation
 I started by preprocessing the data to clean and normalize the text data. Then, I performed basic feature engineering, such as calculating the length of questions and computing word overlap. The real power lies in the advanced feature engineering, where I created token features and fuzzy features using NLP techniques.
 
-The implementation of the project is documented in a Jupyter Notebook [here](https://github.com/TanmayMehta-ml/Quora-Question-Pairs/blob/main/Quora%20Question%20Pairs%20-%20Model%20Training.ipynb). In this notebook, each step is explained in detail, making it a valuable resource for understanding the feature engineering and model training process.
+The implementation of the project is documented in a Jupyter Notebook [here](https://github.com/TanmayMehta-ml/Quora-Question-Pairs/blob/main/BOW_with_Advanced_Features.ipynb). In this notebook, each step is explained in detail, making it a valuable resource for understanding the feature engineering and model training process.
 
 ## Kaggle Competition
 The techniques and methods used in this project draw inspiration from the Quora Question Pairs competition on Kaggle. Although this project is not a direct submission to the competition, I adopted similar approaches and learned from the Kaggle community's best practices.
