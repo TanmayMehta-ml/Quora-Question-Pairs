@@ -37,5 +37,5 @@ if st.button('Find'):
         st.info('🚫 These questions seem to be different.')
 
 # Add a fun emoji and footer
-st.write('Made with ⌨️ & 🖱️ by [Your Name]')
+st.write('Made with ⌨️ & 🖱️ by Tanmay Mehta')
 st.write('Connect with me on [LinkedIn](https://www.linkedin.com/in/tanmay-here/)')
