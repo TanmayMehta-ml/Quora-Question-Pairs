@@ -20,7 +20,7 @@ The main goal of this project is to build a model that can accurately determine 
 
 I started by preprocessing the data to clean and normalize the text data. Then, I performed basic feature engineering, such as calculating the length of questions and computing word overlap. The real power lies in the advanced feature engineering, where I created token features and fuzzy features using NLP techniques.
 
-The implementation of the project is documented in a Jupyter Notebook [here](https://github.com/TanmayMehta-ml/Quora-Question-Pairs/blob/main/BOW_with_Advanced_Features.ipynb). In this notebook, each step is explained in detail, making it a valuable resource for understanding the feature engineering and model training process.
+The implementation of the project is documented in a Jupyter Notebook [here](https://github.com/TanmayMehta-ml/Quora-Question-Pairs/blob/main/explanation.md). In this notebook, each step is explained in detail, making it a valuable resource for understanding the feature engineering and model training process.
 
 ## Kaggle Competition
 
@@ -37,4 +37,3 @@ The project demonstrates the significance of NLP and feature engineering in solv
 - Scikit-Learn Documentation: [Scikit-Learn](https://scikit-learn.org/stable/)
 - FuzzyWuzzy Documentation: [FuzzyWuzzy](https://github.com/seatgeek/fuzzywuzzy)
 - NLTK Documentation: [NLTK](https://www.nltk.org/)
-- Other references can be added here if needed
