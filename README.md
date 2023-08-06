@@ -14,7 +14,7 @@ My mission is simple: build a smart model that can tell if two questions on Quor
 
 <p align="center">
     <a href="https://quora-duplicate-question-pair.streamlit.app/" target="_blank">
-        <img src="webapp_screenshot.png" alt="Web App Screenshot" width="500">
+        <img src="app_screenshot.png" alt="Web App Screenshot" width="500">
     </a>
 </p>
 
