@@ -1,12 +1,9 @@
 import streamlit as st
 import helper
-# import pickle
-# import requests
-
-# model = pickle.load(open('model.pkl','rb'))
 import requests
 import pickle
 
+# Fetch the pre-trained model
 model_url = 'https://github.com/TanmayMehta-ml/Quora-Question-Pairs/releases/download/model-weight-1.0/model.pkl'
 response = requests.get(model_url)
 
@@ -19,16 +16,26 @@ else:
     # Handle the case if the model file could not be fetched
     raise Exception("Failed to fetch the model file from the release.")
 
-st.header('Duplicate Question Pairs')
+# Page title and header
+st.title('Quora Question Pairs')
+st.header('Find out if two questions are duplicates or not!')
 
-q1 = st.text_input('Enter question 1')
-q2 = st.text_input('Enter question 2')
+# User input for question pairs
+q1 = st.text_input('Enter your first question here:')
+q2 = st.text_input('Enter your second question here:')
 
+# Predict button
 if st.button('Find'):
-    query = helper.query_point_creator(q1,q2)
+    # Create query point for model prediction
+    query = helper.query_point_creator(q1, q2)
     result = model.predict(query)[0]
 
+    # Display prediction result
     if result:
-        st.header('Duplicate')
+        st.success('✅ These questions look similar! They might be duplicates.')
     else:
-        st.header('Not Duplicate')
+        st.info('🚫 These questions seem to be different.')
+
+# Add a fun emoji and footer
+st.write('Made with ⌨️ & 🖱️ by [Your Name]')
+st.write('Connect with me on [LinkedIn](https://www.linkedin.com/in/tanmay-here/)')
