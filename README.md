@@ -17,6 +17,6 @@ The implementation of the project is documented in a Jupyter Notebook [here](htt
 ## Kaggle Competition
 The techniques and methods used in this project draw inspiration from the Quora Question Pairs competition on Kaggle. Although this project is not a direct submission to the competition, I adopted similar approaches and learned from the Kaggle community's best practices.
 
-For a detailed understanding of the project and its implementation, you can explore the Jupyter Notebook [here](https://github.com/TanmayMehta-ml/Quora-Question-Pairs/blob/main/Quora%20Question%20Pairs%20-%20Model%20Training.ipynb). Additionally, you can find more information about the original Kaggle competition [here](https://www.kaggle.com/c/quora-question-pairs).
+For a detailed understanding of the project and its implementation, you can explore the Jupyter Notebook [here](https://github.com/TanmayMehta-ml/Quora-Question-Pairs/blob/main/BOW_with_Advanced_Features.ipynb). Additionally, you can find more information about the original Kaggle competition [here](https://www.kaggle.com/c/quora-question-pairs).
 
 The project demonstrates the significance of NLP and feature engineering in solving real-world challenges related to question similarity identification. I encourage you to explore the Jupyter Notebook and try out the web app to experience the power of NLP in action!
