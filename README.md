@@ -1,4 +1,8 @@
 # Quora Question Pairs Web App
+<p align="center">
+  <img src="quora_logo.png" alt="Quora Logo" width="200" height="200">
+</p>
+
 
 This project showcases a web application that utilizes advanced Natural Language Processing (NLP) techniques and feature engineering to identify question pairs with the same intent. The web app allows users to input two questions and receive predictions on whether the questions have similar meanings or not.
 
