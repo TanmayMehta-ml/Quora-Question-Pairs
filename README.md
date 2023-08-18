@@ -24,25 +24,18 @@ I started by preprocessing the data to clean and normalize the text data. Then, 
 
 Discover how my NLP model revolutionizes the way users interact with Quora, creating a seamless and engaging experience. Here's how my cutting-edge NLP techniques have transformed the platform:
 
-### Duplicate Content Filtering
+- Duplicate Content Filtering
 
-Eliminate clutter and ensure a high-quality user experience by accurately identifying duplicate question pairs. My NLP model efficiently filters out redundant content, streamlining the user's journey.
+- Recommended Questions
 
-### Recommended Questions
+- Improved Search Functionality
 
-With semantic similarity at its core, my model intelligently suggests relevant questions to users, providing a personalized touch to every interaction.
 
-### Improved Search Functionality
+- Quality Control and Moderation
 
-Harnessing the power of advanced feature engineering and tokenization, my NLP model delivers precise and relevant search results, ensuring users find what they are looking for effortlessly.
 
-### Quality Control and Moderation
+- Enhanced Question Suggestions
 
-Automated flagging of potential duplicates enables efficient content moderation, enhancing the platform's reliability and credibility.
-
-### Enhanced Question Suggestions
-
-Empower users with real-time question completion suggestions based on popular queries, enriching their experience and encouraging active participation.
 
 ## Diving into the Project 📚
 
